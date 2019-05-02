@@ -30,7 +30,7 @@
                 <p>你是</p>
                 <p>第<span class="name">96</span>个参与者</p>
                 <p>用时<span class="time">09</span>秒</p>
-                <p>本日排<span class="rank">23</span>名 </p>
+                <p>排行第<span class="rank">23</span>名 </p>
             </div>
         </div>
         <img src="img/flagpole.png" class="flag_g"/>

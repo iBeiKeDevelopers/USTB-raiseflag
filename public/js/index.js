@@ -53,14 +53,14 @@ function chan() {
             // alert(time);
             $.ajax({
                 type: "POST",
-                url: nat_url = 'http://hongyan.cqupt.edu.cn/cyxbs_api_2014/natday/index.php?s=/home/rank/show_rank',
+                url: nat_url = '/ajax/upload',
                 data: {
                     stu_name: "匿名",
-                    use_time: time
+                    used_time: time
                 },
                 dataType: null,
                 success: function (data) {
-                    if (data.status == 200) {
+                    if (data.status == 201) {
                         $(".name").html(data.all);
                         $(".rank").html(data.rank);
                         $(".time").html(time.toFixed(2));
